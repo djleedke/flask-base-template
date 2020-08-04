@@ -54,6 +54,13 @@ import os
 os.environ['SECRET_KEY'] = 'INSERT_SECRET_KEY_HERE'
 ```
 
+You can create a new secret key from running the following code in a python shell:
+```
+>>> import uuid
+>>> uuid.uuid4().hex
+`1f60e76982584005ac1140bbc6013234`
+```
+
 Once this is done you should be able to get things rolling, set your FLASK_APP environment variable (for Windows):
 ```
 set FLASK_APP=run.py
@@ -63,6 +70,8 @@ Now run the app:
 ```
 flask run
 ```
+
+Navigate to ```127.0.0.1:5000``` in your browser and you should now see the page loaded. Great job!
 
 ## Built With
 
