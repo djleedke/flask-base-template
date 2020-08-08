@@ -1,6 +1,12 @@
 # Flask Base Template
 
-This is a base template created for Flask designed to allow for a quicker start to future projects.  See a deploy version at https://flask-base-template.herokuapp.com/.
+This is a base template created for Flask designed to allow for a quicker start to future projects.  See a deployed version at https://flask-base-template.herokuapp.com/.
+
+## Contents
+
+- [Features](#features)
+- [Setup](#setup)
+- [Built With](#built-with)
 
 ## Features
 
@@ -8,10 +14,6 @@ This is a base template created for Flask designed to allow for a quicker start 
 - Base template structure w/ navbar and Bootstrap
 - Procfile & gunicorn for quick Heroku deployment
 
-## Contents
-
-- [Setup](#Setup)
-- [Built With](#built-with)
 
 ## Setup
 
